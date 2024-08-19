@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    display: grid;
+    height: 100%;
+
+}
+.page1 {
+    background-color: rgb(142, 68, 173);
+    font-family: "Titillium Web", sans-serif;
+    position: relative;
+    padding: 50px 0; /* Adjusted padding for spacing */
+    text-align: center; /* Center the content */
+    padding-top: 30px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.logo {
+    padding-left: 250px;
+    padding-top: 8px; 
+    color: white;
+    position: absolute;
+    left: 20px; 
+}
+
+.hpage1 {
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 110px;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    gap: 2px;
+    padding-top: 10px;
+    padding-right: 200px;
+}
+
+li {
+    margin: 0;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(83, 47, 112, 0.288);
+}
+
+.active {
+    background-color: rgba(83, 47, 112, 0.288);
+}
+
+.buttonp1 {
+    display: block;
+    margin: 30px auto 0 auto; /* Center the button horizontally with margin auto */
+    text-align: center;
+    background-color: rgb(233, 143, 40);
+    height: 60px;
+    width: 260px;
+    border-color: rgb(242, 120, 66);
+    border-style: outset;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.buttonp1:hover {
+    background-color: rgb(242, 120, 66);
+}
+.page2{
+    background-color: rgb(50, 180, 139);
+    font-family: "Titillium Web", sans-serif;
+    position: relative;
+    padding: 50px 0; /* Adjusted padding for spacing */
+    font-size: larger;
+    height: 650px;
+}
+.centered{
+    text-align: center;
+    color: white;
+}
+.centered h2{
+    letter-spacing: 3px;
+}
+.centered p{
+    padding-top: 10px;
+}
+hr{
+    margin: auto;
+    width: 70px;
+    color: gray;
+    padding: 0;
+    margin-top: 10px;
+}
+.services{
+    display: inline-block;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    gap: 2px;
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+}
+.services img:hover{
+    transform:rotateX(20deg);
+    transform:rotateY(20deg);
+    transform:rotateZ(20deg);
+}
+li{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.normal{
+    display: block;
+    margin: 0 auto 10px;
+    margin-bottom: 30px;
+}
+.upnormal{
+    display: block;
+    margin: 0 auto 10px;
+    margin-bottom: 10px;
+}
+li h3 {
+    margin-bottom: 12px; /* Add some space between the heading and paragraph */
+}
+
+li p {
+    margin-top: auto; /* Push the paragraph to the bottom */
+}
+.page3{
+    background-color: azure;
+    font-family: "Titillium Web", sans-serif;
+    position: relative;
+    padding: 30px 0; /* Adjusted padding for spacing */
+    font-size: larger;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+.centeredp3{
+    text-align: center;
+    color: rgb(9, 0, 90);
+}
+.teamimg{
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    gap: 50px; /* Space between images */
+    padding: 20px 0; /* Add some padding above and below the images */
+}
+.teamimg li {
+    text-align: center; /* Center the content within each list item */
+    list-style-type: none; /* Remove bullet points */
+}
+.teamimg h3{
+    color: rgb(9, 0, 90);
+}
+.teamimg h5{
+    color: deepskyblue;
+    font-weight:500;
+}
+.teamimg p{
+    color: rgb(9, 0, 90);
+}
+.animation{
+    transition: width 2s ,height 2s,transform 0.5s;
+    transition-timing-function:ease;
+}
+.animation:hover{
+    transform: rotate(8deg);
+}
+#icons {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    padding-top: 10px;
+}
+
+#icons a {
+    color: rgb(0, 0, 75);
+    font-size: 24px;
+}
+
+#icons a:hover {
+    color: navy; 
+}
+
+.teamimg li {
+    text-align: center;
+}
+.page4{
+    background-color: white;
+    font-family: "Titillium Web", sans-serif;
+    position: relative;
+    font-size: larger;
+    text-align: center;
+    color: rgb(56, 55, 55);
+    padding: 30px 0;
+    margin: 0;
+    padding-bottom: 70px;
+}
+.page4 h2{
+    letter-spacing: 2px;
+    padding-top: 40px;
+}
+.page4 p{
+    padding: 20px;
+}
+.long{
+    width: 1300px;
+    height: 3px;        /* Increase the height for boldness */
+    background-color: black; 
+}
+.circular_progress {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: conic-gradient(var(--clr) calc(var(--progress) * 3.6deg), lightgrey 0deg);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: progressAnim 0s forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    padding: 60px;
+}
+
+.circular_progress::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.perc {
+    font-size: 3rem;
+    color: rgb(63, 63, 63);
+    z-index: 1;
+}
+
+.circular_progress h3 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 220px;
+    color: rgb(63, 63, 63);
+    font-size: large;
+}
+
+@keyframes progressAnim {
+    0% {
+        --progress: 0;
+    }
+    100% {
+        --progress: var(--value);
+    }
+}
+
+/* Hover Effect */
+.circular_progress:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.page5{
+    background-color: rgb(250, 215, 160);
+    font-family: "Titillium Web", sans-serif;
+    padding: 30px 0;
+    
+}
+.page5 h2{
+    padding: 20px;
+}
+.page5 img{
+    padding: 30px;
+}
+.page5 img:hover{
+    transform: scale(1.4,1.2);
+}
+.centeredp5{
+    color: rgb(56, 55, 55);
+    font-size: larger;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.projectssL1{
+    display: flex;
+    gap: 10px;
+    padding-left: 190px;
+    font-weight: lighter;
+}
+.projectssL1 li{
+    text-align: center;
+    color: rgb(66, 66, 66);
+}
+.projectssL2 {
+    padding-left: 190px;
+    padding-bottom: 40px;
+}
+.projectssL2 li{
+    color: rgb(66, 66, 66);
+    font-weight: lighter;
+}
+.buttonp5 {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    gap: 2px;
+    padding-top: 10px;
+    padding-right: 200px;
+}
+
+.buttonp5 li {
+    margin: 0;
+}
+
+.buttonp5 li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.buttonp5 li a:hover {
+    background-color: rgba(83, 47, 112, 0.288);
+}
+.page5 button:hover{
+    background-color: burlywood;
+}
+
+button.active {
+    background-color: rgb(255, 255, 255);
+}
+button{
+    background-color: rgba(240, 248, 255, 0.336);
+    border-color: rgba(128, 128, 128, 0);
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.load {
+    display: block;
+    margin: 30px auto 0 auto; /* Center the button horizontally with margin auto */
+    text-align: center;
+    background-color: rgb(55, 194, 150);
+    height: 50px;
+    width: 240px;
+    border-color: rgb(55, 194, 150);
+    border-style: outset;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.load:hover {
+    background-color: rgb(48, 190, 145) !important;
+    transform: scale(1,1.2);
+}
+.page6{
+    background-color: rgb(203, 38, 128);
+    font-family: "Titillium Web", sans-serif;
+    position: relative;
+     /* Adjusted padding for spacing */
+    font-size: larger;
+    height: 680px;
+}
+.page6 h2{
+    padding-top: 40px;
+}
+.outsidep{
+    margin-top: 10px;
+}
+.insidepl1 , .h3l1 , .h5l1{
+    text-align: left;
+    direction: ltr;
+    font-size: large;
+}
+.insidepl1{
+    margin-top: 55px;
+}
+.insidepl2{
+    margin-top: 60px;
+}
+.insidepl2 , .h3l2 , .h5l2{
+    text-align: left;
+    direction: ltr;
+    font-size: large;
+}
+.page6 img{
+    float: left;
+}
+.centeredp6{
+    color: rgb(255, 252, 252);
+    font-size: larger;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.peopleL1{
+    display:flexbox;
+    gap: 10px;
+    margin-left: 190px;
+    font-weight: lighter;
+}
+.peopleL1 li{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.peopleL2 {
+    display:flexbox;
+    margin-left: 190px;
+    gap: 10px;
+    font-weight: lighter;
+}
+.peopleL2 li{
+    color: rgb(255, 250, 250);
+    font-weight: lighter;
+}
+.lin2{
+    margin-left: 90px;
+}
+.page6 h5{
+    font-weight: normal;
+    color: rgb(235, 222, 50);
+}
+
+.page7{
+    background-color: rgb(29, 40, 138);
+    font-family: "Titillium Web", sans-serif;
+    position: relative;
+    padding: 0px 0px; /* Adjusted padding for spacing */
+    font-size: larger;
+    width: 100%;
+}
+.centeredp7 h2{
+    padding: 30px;
+}
+.centeredp7 p{
+    padding: 30px;
+}
+.centeredp7{
+    color: rgb(255, 252, 252);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 60%;
+    padding: 15px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 0, 0, 0);
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(6, 1, 71, 0.548);
+}
+.Message{
+    line-height: 60px;
+}
+.inline{
+    display: inline-flex;
+    gap: 10px;
+    width:60% ;
+}
+.buttonp7{
+    background-color:rgb(48, 157, 190) ;
+    width: 200px;
+    height: 50px;
+    color: white;
+    
+}
+.buttonp7:hover{
+    background-color: rgb(1, 1, 78);
+}
+.foot {
+    background-color: rgba(0, 0, 139, 0.288);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    padding: 0 10px; /* Add some padding for spacing */
+}
+
+.foot ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; 
+
+}
+
+.foot li {
+    margin: 0;  
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.foot a:hover {
+    color: lightblue;
+}
+.flex{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.flex > .page1 .page2 .page3 .page4 .page5 .page6 .page7{
+    width: 100%;
+    height: 100%;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 32px;
+}
